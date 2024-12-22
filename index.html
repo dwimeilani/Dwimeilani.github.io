@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #0068b3;
+        color: white;
+        text-align: center;
+        padding: 5rem;
+      }
+      header h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+      }
+      header p {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+      }
+      header .photo {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 4px solid white;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+      section {
+        padding: 5rem;
+        margin-bottom: 30px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+      section h2 {
+        font-size: 1.8rem;
+        color: #0068b3;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      section p {
+        font-size: 1rem;
+        color: #6c757d;
+      }
+      .btn-social {
+        font-size: 1.5rem;
+        margin: 10px;
+        color: #0068b3;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+      .btn-social:hover {
+        color: #0068b3;
+      }
+      .table th {
+        background-color: #0068b3;
+        color: white;
+      }
+      footer {
+        background-color: #045086;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+    </style>
+    <title>Portofolio | Dwi Meilani Mardyanti</title>
+  </head>
+  <body id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background-color: #045086">
+      <div class="container">
+        <a class="navbar-brand" href="#">Dwi Meilani Mardyanti</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <img src="img/1716810529656.jpg" alt="Dwi Meilani Mardyanti" width="150" class="rounded-circle" />
+      <h1>Dwi Meilani Mardyanti</h1>
+      <p>Mahasiswa | Ilmu Komputer</p>
+      <p>Universitas YATSI MADANI</p>
+      <p><i class="bi bi-envelope"></i> <a href="mailto:dwimeilanidyan@gmail.com" class="text-white">dwimeilanidyan@gmail.com</a></p>
+    </header>
+
+    <div class="container">
+      <section id="about">
+        <h2><i class="bi bi-person"></i> About</h2>
+        <p>
+          Saya adalah mahasiswa di Universitas Yatsi Madani dengan jurusan Ilmu Komputer, saat ini saya berada di semester 3. Saya memiliki keterampilan dalam pengembangan web, instalasi jaringan, dan komunikasi efektif dalam tim. Saya
+          berkomitmen untuk terus belajar dan berkembang dalam dunia teknologi.
+        </p>
+      </section>
+
+      <section id="experience">
+        <h2><i class="bi bi-briefcase"></i> Experience</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Posisi</th>
+              <th>Perusahaan</th>
+              <th>Periode</th>
+              <th>Deskripsi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Intern Web Developer</td>
+              <td>PT. ARETANET</td>
+              <td>Feb 2021 - Apr 2021</td>
+              <td>Membangun dan merancang website berbasis proyek dengan menggunakan teknologi frontend modern.</td>
+            </tr>
+            <tr>
+              <td>Anggota KPPS</td>
+              <td>Pilkada 2024</td>
+              <td>Nov 2024 - Des 2024</td>
+              <td>Melaksanakan pemungutan suara di TPS dengan memastikan kelancaran operasional dan keabsahan prosedur.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="education" class="container my-5">
+        <h2><i class="bi bi-mortarboard"></i> Education</h2>
+        <ul class="list-unstyled">
+          <li>
+            <h5>SMK PGRI 109 TANGERANG</h5>
+            <p>2019 - 2022</p>
+          </li>
+          <li>
+            <h5>SMP ISLAM BAIDHAUL AHKAM</h5>
+            <p>2016 - 2019</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h2><i class="bi bi-gear"></i> Skills</h2>
+        <ul>
+          <li><strong>Microsoft Office:</strong> Mahir dalam penggunaan Word, Excel, PowerPoint</li>
+          <li><strong>Web Development:</strong> Pengalaman menggunakan HTML, CSS, JavaScript, dan Bootstrap</li>
+          <li><strong>Jaringan:</strong> Pengalaman dalam instalasi jaringan LAN dan pemecahan masalah dasar jaringan</li>
+          <li><strong>Komunikasi:</strong> Keterampilan komunikasi yang baik dalam presentasi dan kerja tim</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2><i class="bi bi-chat"></i> Contact</h2>
+        <form action="mailto:dwimeilanidyan@gmail.com" method="post" enctype="text/plain">
+          <div class="mb-3">
+            <label for="name" class="form-label">Nama Lengkap</label>
+            <input type="text" class="form-control" id="name" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Pesan</label>
+            <textarea class="form-control" id="message" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark" style="background-color: #0068b3">Kirim via Email</button>
+        </form>
+        <div class="mt-3">
+          <a href="https://www.instagram.com/meiilani.13/#meilani/" class="btn-social"><i class="bi bi-instagram"></i></a>
+          <a href="mailto:dwimeilanidyan@gmail.com" class="btn-social"><i class="bi bi-envelope"></i></a>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by Dwi Meilani</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
